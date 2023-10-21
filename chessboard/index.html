@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chessboard</title>
+        <style>
+            td {
+                height: 80px;
+                width: 80px;
+                text-align: center;
+            }
+            td > img {
+                height: 45px;
+                width: 45px;
+            }
+            tr.odd td:nth-child(even) {
+                background: green;
+            }
+
+            tr.odd td:nth-child(odd) {
+                background: #e3f1e3;
+            }
+
+            tr.even td:nth-child(odd) {
+                background: green;
+            }
+
+            tr.even td:nth-child(even) {
+                background: #e3f1e3;
+            }
+       label{
+        display: block;
+       }
+        </style>
+    </head>
+    <body style="background-color: rgb(199, 10, 10);">
+        <h1 align="center" style="color: #e3f1e3;">
+            Chess Board
+        </h1>
+        <table align="center" width="70%" height="600px">
+            <tbody>
+                <tr class="odd">
+                    <td><img src="./assets/images/rook.png" alt="This is rook"></td>
+                    <td><img src="./assets/images/knight.png" alt="This is knight"></td>
+                    <td><img src="./assets/images/bishop.png" alt="This is bishop"></td>
+                    <td><img src="./assets/images/crown.png" alt="This is crown"></td>
+                    <td><img src="./assets/images/queen.png" alt="This is queen"></td>
+                    <td><img src="./assets/images/bishop.png" alt="This is bishop"></td>
+                    <td><img src="./assets/images/knight.png" alt="This is knight" ></td>
+                    <td><img src="./assets/images/rook.png" alt="this is rook"></td>
+                </tr>
+
+                <tr id="odd" class=" even ">
+                    <td><img src="./assets/images/pawn.png" alt="This is pawn"></td>
+                    <td><img src="./assets/images/pawn.png" alt="This is pawn"></td>
+                    <td><img src="./assets/images/pawn.png" alt="This is pawn"></td>
+                    <td><img src="./assets/images/pawn.png" alt="This is pawn"></td>
+                    <td><img src="./assets/images/pawn.png" alt="This is pawn"></td>
+                    <td><img src="./assets/images/pawn.png" alt="This is pawn"></td>
+                    <td><img src="./assets/images/pawn.png" alt="This is pawn"></td>
+                    <td><img src="./assets/images/pawn.png" alt="This is pawn"></td>
+                    
+
+                </tr>
+                <tr class="odd">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="even">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="odd">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="even">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="odd">
+                    <td><img src="./assets/images/chess-piece.png" alt=" This is chess-piece"></td>
+                    <td><img src="./assets/images/chess-piece.png" alt=" This is chess-piece"></td>
+                    <td><img src="./assets/images/chess-piece.png" alt=" This is chess-piece"></td>
+                    <td><img src="./assets/images/chess-piece.png" alt=" This is chess-piece"></td>
+                    <td><img src="./assets/images/chess-piece.png" alt=" This is chess-piece"></td>
+                    <td><img src="./assets/images/chess-piece.png" alt=" This is chess-piece"></td>
+                    <td><img src="./assets/images/chess-piece.png" alt=" This is chess-piece"></td>
+                    <td><img src="./assets/images/chess-piece.png" alt=" This is chess-piece"></td>
+                </tr>
+
+                <tr class="even">
+                    <td><img src="./assets/images/chess-piece (2).png" alt="This is chess-piece"></td>
+                    <td><img src="./assets/images/strategy.png" alt="This is strategy"></td>
+                    <td><img src="./assets/images/bishop (1).png" alt="This is bishop"></td>
+                    <td><img src="./assets/images/crown2.png" alt="This is crown2"></td>
+                    <td><img src="./assets/images/queen 2.png" alt="This is queen"></td>
+                    <td><img src="./assets/images/bishop (1).png" alt="This is bishop"></td>
+                    <td><img src="./assets/images/strategy.png" alt="This is strategy"></td>
+                    <td><img src="./assets/images/chess-piece (2).png" alt="This is chess-piece"></td>
+                </tr>
+                
+            </tbody>
+        </table>  
+              <form action="" >
+                <table width="50%" align="center">
+                    
+                    <tr>
+                <td>          
+              <label> your name </label>
+              <input type="tel">
+            </td>
+              <td>
+              <label> inter password</label>
+              <input  size="10" type="password">
+              </td>
+                    </tr>
+                    <tr>
+              <td>
+              <label for="gmail"> inter your gamil</label>
+              <input maxlength="6" size="14" type="text">
+              </td>
+        
+                <td>
+                <label>Enter your DOB</label>
+              <input type="date">
+
+
+
+
+                </td>
+              </tr>
+            </table>
+
+
+            </form>  
+            <fieldset>
+            <legend></legend>
+
+
+
+
+
+
+
+
+
+
+
+                <label>
+             
+
+            </label>
+
+            </fieldset>
+
+
+        </body>
+            </html>
